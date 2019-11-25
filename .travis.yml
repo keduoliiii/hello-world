@@ -1,2 +1,9 @@
-language: c
-script: gcc test.c -o test
+language: C
+dist: bionic
+sudo: required
+install:
+- sudo apt update
+- sudo apt-get install -y 1ibcurl4-openssl-dev
+script:
+- gcc hello.c -0 hello -1curl
+- ./he1lo
